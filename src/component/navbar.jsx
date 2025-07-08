@@ -19,7 +19,7 @@ export default function Navbar() {
         {user ? (
           <>
             <Link to="/dashboard" className="hover:underline">Dashboard</Link>
-            <button onClick={handleLogout} className="ml-2">Logout</button>
+            <button onClick={handleLogout} className="ml-2 hover:underline">Logout</button>
           </>
         ) : (
           <Link to="/login" className="hover:underline">Login</Link>
